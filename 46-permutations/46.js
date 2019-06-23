@@ -28,7 +28,7 @@ let permute = nums => {
     return results;
 };
 
-var copy = array => JSON.parse(JSON.stringify(array));
+var copy = array => [...array];
 
 let actual_output = permute([1, 2, 3]);
 let expected_output = [
